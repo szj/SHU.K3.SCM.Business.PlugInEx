@@ -40,6 +40,38 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.DataEntity.dll</HintPath>
     </Reference>
+    <Reference Include="Kingdee.BOS.ServiceHelper, Version=6.0.413.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.ServiceHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Kingdee.K3.CRM.Core, Version=6.0.379.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.CRM.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Kingdee.K3.CRM.OPP.Business.PlugIn, Version=6.0.379.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.CRM.OPP.Business.PlugIn.dll</HintPath>
+    </Reference>
+    <Reference Include="Kingdee.K3.FIN.AR.Report.PlugIn, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.FIN.AR.Report.PlugIn.dll</HintPath>
+    </Reference>
+    <Reference Include="Kingdee.K3.SCM.Business, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.SCM.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Kingdee.K3.SCM.Common.BusinessEntity, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.SCM.Common.BusinessEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="Kingdee.K3.SCM.Sal.Business.PlugIn, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.SCM.Sal.Business.PlugIn.dll</HintPath>
+    </Reference>
+    <Reference Include="Kingdee.K3.SCM.ServiceHelper, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.SCM.ServiceHelper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,7 +82,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgingAnalysisExFilter.cs" />
     <Compile Include="BillAuditMessagePlugln.cs" />
+    <Compile Include="ContractExEdit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

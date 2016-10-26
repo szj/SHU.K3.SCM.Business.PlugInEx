@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\</OutputPath>
+    <OutputPath>..\..\..\..\SHUCloud\K3Cloud\Bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -30,55 +30,53 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Kingdee.BOS">
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Kingdee.BOS.App, Version=6.1.101.5, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Kingdee.BOS, Version=6.0.413.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.App.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.BOS.dll</HintPath>
     </Reference>
-    <Reference Include="Kingdee.BOS.Contracts, Version=6.1.101.5, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Kingdee.BOS.Core, Version=6.0.413.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.Contracts.dll</HintPath>
-    </Reference>
-    <Reference Include="Kingdee.BOS.Core">
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.Core.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.BOS.Core.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.BOS.DataEntity, Version=6.0.413.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.DataEntity.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.BOS.DataEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="Kingdee.BOS.ProductModel, Version=6.1.39.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.BOS.ProductModel.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.BOS.ServiceHelper, Version=6.0.413.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.ServiceHelper.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.BOS.ServiceHelper.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.K3.CRM.Core, Version=6.0.379.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.CRM.Core.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.CRM.Core.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.K3.CRM.OPP.Business.PlugIn, Version=6.0.379.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.CRM.OPP.Business.PlugIn.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.CRM.OPP.Business.PlugIn.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.K3.FIN.AR.Report.PlugIn, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.FIN.AR.Report.PlugIn.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.FIN.AR.Report.PlugIn.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.K3.SCM.Business, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.SCM.Business.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.SCM.Business.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.K3.SCM.Common.BusinessEntity, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.SCM.Common.BusinessEntity.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.SCM.Common.BusinessEntity.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.K3.SCM.Sal.Business.PlugIn, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.SCM.Sal.Business.PlugIn.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.SCM.Sal.Business.PlugIn.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.K3.SCM.ServiceHelper, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.SCM.ServiceHelper.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.SCM.ServiceHelper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -93,7 +91,6 @@
     <Compile Include="AgingAnalysisExFilter.cs" />
     <Compile Include="BillAuditMessagePlugln.cs" />
     <Compile Include="ContractExEdit.cs" />
-    <Compile Include="CPOrderQtyQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

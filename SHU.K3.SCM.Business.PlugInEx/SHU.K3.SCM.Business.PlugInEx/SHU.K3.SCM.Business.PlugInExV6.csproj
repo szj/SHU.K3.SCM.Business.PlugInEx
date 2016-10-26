@@ -33,14 +33,6 @@
     <Reference Include="Kingdee.BOS">
       <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.dll</HintPath>
     </Reference>
-    <Reference Include="Kingdee.BOS.App, Version=6.1.101.5, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.App.dll</HintPath>
-    </Reference>
-    <Reference Include="Kingdee.BOS.Contracts, Version=6.1.101.5, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.Contracts.dll</HintPath>
-    </Reference>
     <Reference Include="Kingdee.BOS.Core">
       <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.Core.dll</HintPath>
     </Reference>
@@ -93,7 +85,6 @@
     <Compile Include="AgingAnalysisExFilter.cs" />
     <Compile Include="BillAuditMessagePlugln.cs" />
     <Compile Include="ContractExEdit.cs" />
-    <Compile Include="CPOrderQtyQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
